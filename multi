@@ -8,7 +8,7 @@ set -e
 #=======================================================|
 
 #===============VARS
-SLACKVER='14.2'
+SLACKVER='15.0'
 
 #==============START
 mkdir multilib && cd multilib
