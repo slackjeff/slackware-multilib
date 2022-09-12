@@ -14,7 +14,7 @@ SLACKVER='15.0'
 mkdir multilib && cd multilib
 
 # Download
-lftp -c "open http://bear.alienbase.nl/mirrors/people/alien/multilib/ ; mirror -c -e ${SLACKVER}"
+lftp -c "open https://slackjeff.com.br/multilib/ ; mirror -c -e ${SLACKVER}"
 cd ${SLACKVER}
 
 upgradepkg --reinstall --install-new *.t?z && \
